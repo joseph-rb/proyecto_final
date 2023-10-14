@@ -1,0 +1,5 @@
+env/
+*__pycache__/
+dist/
+docs/build
+src/ProyectoFinalJoseph.egg-info

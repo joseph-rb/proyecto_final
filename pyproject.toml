@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=65.5.0","Pillow>=10.0.1","sphinx>=7.2.6","python-magic-bin>=0.4.14","requests>=2.31.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ProyectoFinalJoseph"
+version = "0.0.1"
+description = "Paquete con varias funcionalidades para bajar y manipular imágenes y también para enviar correos."
+authors = [
+    {name = "Jose Rodriguez Blanco", email = "ignacio.rodriguezblanco@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: Freely Distributable",
+    "Operating System :: Microsoft :: Windows"
+]
+[project.urls] 
+"Homepage" = "https://github.com/joseph-rb/proyecto_final"
